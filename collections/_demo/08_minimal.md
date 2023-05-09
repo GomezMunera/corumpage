@@ -61,7 +61,7 @@ project_links:
       <div class="col-lg-6 order-lg-1">
         <div class="p-5">
           <h2 class="display-4 text-center te t-lg-left">Let there be rock!</h2>
-          <p><span class="chulapa">Chulapa</span> and Bootstrap FTW!</p>
+          <p><span class="chulapa">CORUM</span> and Bootstrap FTW!</p>
         </div>
       </div>
     </div>

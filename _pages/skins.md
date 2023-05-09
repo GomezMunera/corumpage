@@ -1,12 +1,12 @@
 ---
-title: <span class="chulapa">Chulapa</span> Skins
+title: <span class="chulapa">CORUM</span> Skins
 subtitle: A preview of the different skins you would have with this theme
 header_type       : "hero"
 header_img : "./assets/img/site/chulapa-madrid.jpg"
 permalink: /skins
 ---
 
-<span class="chulapa">Chulapa</span> includes a wide collection of predefined skins, developed by different providers as [Bootswatch](https://bootswatch.com/) and [Tophat](https://themesguide.github.io/top-hat/dist/). Click on the preview to learn more and instructions on how to install it, it's easy and fast!
+<span class="chulapa">CORUM</span> includes a wide collection of predefined skins, developed by different providers as [Bootswatch](https://bootswatch.com/) and [Tophat](https://themesguide.github.io/top-hat/dist/). Click on the preview to learn more and instructions on how to install it, it's easy and fast!
 
 Additionally, you can have a preview of the current theme [here](https://dieghernan.github.io/chulapa/skins/current).
 

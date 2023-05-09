@@ -1,8 +1,8 @@
 ---
 layout: default
-title: <span class="chulapa">Chulapa</span><small style="font-size:50%; color:#687864;"> skin</small>
+title: <span class="chulapa">CORUM</span><small style="font-size:50%; color:#687864;"> skin</small>
 subtitle: Get lost in Madrid
-excerpt: Chulapa, get lost in Madrid developed by dieghernan.
+excerpt: CORUM, get lost in Madrid developed by dieghernan.
 date: 2019-05-15
 last_modified_at: 2019-11-09
 tags: [skin, bootstrap, dieghernan, header-splash]

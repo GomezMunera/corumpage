@@ -26,7 +26,7 @@ SOFTWARE.**
 
 ## Attributions
 
-<span class="chulapa">Chulapa</span> is a font owned by the City Council of Madrid designed and produced by Joancarles Casasín y Pablo Gámez on a previous design of Silvia Fernández Palomar licensed under [Creative Commons CC BY, Versión 4.0](https://creativecommons.org/licenses/by/4.0/). This theme incorporates a modification of this work in order to provide support to the english language.
+<span class="chulapa">CORUM</span> is a font owned by the City Council of Madrid designed and produced by Joancarles Casasín y Pablo Gámez on a previous design of Silvia Fernández Palomar licensed under [Creative Commons CC BY, Versión 4.0](https://creativecommons.org/licenses/by/4.0/). This theme incorporates a modification of this work in order to provide support to the english language.
 
 Bootstrap v.4.5 is released under the [MIT license](https://github.com/twbs/bootstrap/blob/v4.5.0/LICENSE) and is copyright 2020 Twitter.
 

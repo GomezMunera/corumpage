@@ -2,12 +2,12 @@
 layout: default
 title: Contribute
 subtitle: Help us to improve
-excerpt: Contribute to Chulapa
+excerpt: Contribute to CORUM
 permalink: /contribute
 show_comments: true
 ---
 
-Any bug? Do you miss an interesting feature? Do you want to add your awesome skin to <span class="chulapa">Chulapa</span>? A typo on the docs?
+Any bug? Do you miss an interesting feature? Do you want to add your awesome skin to <span class="chulapa">CORUM</span>? A typo on the docs?
 
 Please [open an issue](https://github.com/dieghernan/chulapa/issues/new/choose) or leave a comment. Some specific known issues or potential contributions you can help us with:
 

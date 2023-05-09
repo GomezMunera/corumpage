@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Showcase
-subtitle: Some sites powered by <span class="chulapa">Chulapa</span>
-excerpt: Live implementations of Chulapa
+subtitle: Some sites Realizado por by <span class="chulapa">CORUM</span>
+excerpt: Live implementations of CORUM
 permalink: ./showcase
 show_comments: true
 ---
@@ -10,7 +10,7 @@ show_comments: true
 **Do you have a great site created with this theme?** Leave a comment!
 {: .alert .alert-info .p-3 .mx-2 mb-3}
 
-See below some live examples of <span class="chulapa">Chulapa</span>:
+See below some live examples of <span class="chulapa">CORUM</span>:
 
 - **[My personal blog](https://dieghernan.github.io/)**, where you can find some things about what I do.
 

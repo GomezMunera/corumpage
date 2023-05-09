@@ -1,0 +1,72 @@
+
+{%- if page.tags -%}
+{%- assign alldocs = site.documents |  where_exp: "item", "item.url != page.url"  -%}
+
+
+{%- for tag in page.tags %}
+  {%- if forloop.first -%}
+    {%- assign relateddocs = alldocs | 
+                    where_exp: "item", "item.tags contains tag" | map: 'id' | join: ','  | split: ',' -%}
+                    
+  {%- else -%}
+    {%- assign docloop = alldocs | 
+                    where_exp: "item", "item.tags contains tag" | map: 'id' | join: ','  | split: ',' -%}
+    {%- assign relateddocs = relateddocs | concat: docloop  %}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign thiscol = alldocs | where_exp: "item", "item.collection == page.collection"   | map: 'id' | join: ','  | split: ',' -%}
+
+{%- assign groupurl =  relateddocs | concat: thiscol | group_by: id | sort: 'size' | reverse  -%}
+
+{% assign groupurl = groupurl | where_exp: "item", "item.size > 2"  -%}
+
+
+{% for id in groupurl limit:3 %}
+  {%- if forloop.first -%}
+  {% assign reldoc = alldocs | where_exp: "item", "item.id == id.name" %}
+  {%- else -%}
+  {%- assign relloop = alldocs | 
+                    where_exp: "item", "item.id == id.name" -%}
+  {% assign reldoc = reldoc | concat: relloop %}
+  {% endif %}
+{% endfor %}
+
+{%- if reldoc -%}
+  {% for document in reldoc %}
+    {% assign m = "ml-sm-1" %}
+    
+    {%- if forloop.first -%}
+    {% assign m = "" %}
+<div class="container-lg mt-1 mb-2">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <hr>
+      <p><i class="fa-solid fa-shuffle fa-xl"></i><span class="sr-only">Related</span></p>
+      <nav class="card-group" aria-label="related-articles">
+    {%- endif %}
+         <div class="card {{ m }} border chulapa-related">
+          <div class="card-body">
+          <p class="card-title chulapa-headingfont"><a href="{{ document.url | absolute_url }}" class="chulapa-text-body-color">{{ document.title }}</a></p>
+          {% if document.subtitle %}<p class="card-text"><small>{{- document.subtitle -}}</small></p> {%- endif -%}
+    </div>
+    <div class="card-footer bg-transparent">
+          {% if document.date %}
+    {% assign dateformat = document.date | date: "%B %d, %Y" %}
+      <small><i class="far fa-calendar" aria-hidden="true"></i> <time datetime="{{- document.date | date_to_xmlschema -}}">{% include_cached snippets/datetranslate.html  date=dateformat %}</time></small>
+      {% else %}
+      <small>-</small>
+      {% endif %}
+    </div>
+  </div>
+    {%- if forloop.last -%}
+    </nav>
+    </div>
+  </div>
+</div>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- endif -%}
+
+

@@ -1,30 +1,30 @@
-remote_theme: dieghernan/chulapa
+theme: chulapa-jekyll
 
-
-repository: dieghernan/chulapa
+github: [metadata]
+repository: gomezmunera/corumpage
 url: "https://dieghernan.github.io"
-baseurl: "/chulapa"
+baseurl: ""
 
-title: Chulapa
-subtitle: A full flexible Jekyll theme
-description: Template for creating free sites on Github Pages
+title: CORUM
+subtitle: Corporación de Estudiantes y Profesionales Marinilla
+description: Página web de la Corporación CORUM
 og_image: "./assets/img/site/banner.png"
-twitter_site: dhernangomez
-timezone: "Europe/Madrid"
+# twitter_site: dhernangomez
+timezone: "America/Bogota"
 author:
-  name: dieghernan
+  name: corum
   avatar: ./assets/img/site/dieghernan-avatar.png
-  location: Madrid, Spain
+  location: Marinilla, Colombia
   links:
-    - url: https://github.com/dieghernan/
+    - url: https://github.com/gomezmunera/
       icon: "fab fa-github"
       label: GitHub
-    - url: https://dieghernan.github.io/
-      icon: fas fa-blog
-      label: Blog
-    - url: https://stackoverflow.com/users/7877917/dieghernan
-      icon: "fab fa-stack-overflow"
-      label: StackOverflow
+    # - url: https://dieghernan.github.io/
+    #   icon: fas fa-blog
+    #   label: Blog
+    # - url: https://stackoverflow.com/users/7877917/dieghernan
+    #   icon: "fab fa-stack-overflow"
+    #   label: StackOverflow
 gtag_id:  UA-139034853-5
 search:
   provider: algolia
@@ -69,26 +69,14 @@ navbar:
   nav:
   - title: Blog
     url: /blog/
-  - title: Docs
+  - title: Proyectos
     child:
-     - title: Read the Docs
-       url: /docs
-     - title: Installation
-       url: /docs/01-install
-     - title: Global Settings
-       url: /docs/02-config
-     - title: Theming your site
-       url: /docs/03-theming
-     - title: Layouts & Snippets
-       url: /docs/04-layouts
-     - title: FAQs
-       url: /docs/05-faq
-     - title: Markdown cheatsheet
-       url: /docs/markdown-cheatsheet
-     - title: Syntax highlighting
-       url: /docs/syntax-highlighting
-     - title: Variable dictionary
-       url: /docs/variable-dictionary
+      - title: Inicio
+        url: /proyectos
+      - title: Red sentir
+        url: /proyectos/redsentir
+      - title: Cacao para la paz
+        url: /proyectos/cacao-para-la-paz
   - title: Skins
     url: /skins
   - title: Demos
@@ -126,16 +114,16 @@ footer:
       url:  "./atom.xml"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: https://github.com/dieghernan/
-    - label: "My blog"
-      icon: "fas fa-blog"
-      url: "https://dieghernan.github.io/"
-  copyright: "&copy; 2021 <span class='chulapa'>Chulapa</span> developers"
+      url: https://github.com/corumcorp/
+    # - label: "My blog"
+    #   icon: "fas fa-blog"
+    #   url: "https://dieghernan.github.io/"
+  copyright: "&copy; 2023 <span class='chulapa'>CORUM</span> developers"
 
 # C. Theme Settings
 chulapa-skin:
   highlight   : "github"
-  skin        : gitdev
+  skin        : sunset
   autothemer  :  true
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
@@ -143,9 +131,9 @@ collections:
   demo:
     output: true
     permalink: /demo/:name
-  docs:
+  proyectos:
     output: true
-    permalink: /docs/:name
+    permalink: /proyectos/:name
   skins:
     output: true
     permalink: /skins/:name

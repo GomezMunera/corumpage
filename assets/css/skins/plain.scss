@@ -4,7 +4,7 @@
 // Custom free font: see https://diario.madrid.es/chulapa/
 @font-face {
   font-family: chulapa;
-  src: url('https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/fonts/Chulapa/Chulapa-Bold_vmod.otf');
+  src: url('https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/fonts/chulapa/chulapa-Bold_vmod.otf');
   font-display: fallback;
 }
 
@@ -27,7 +27,7 @@
 
 // Import bootstrap
 @import "bootstrap/bootstrap";
-//B. Chulapa specifics
+//B. CORUM specifics
 @import "chulapa-master";
 {% if site.search.provider == "algolia" %}
 @import "reset-algolia";

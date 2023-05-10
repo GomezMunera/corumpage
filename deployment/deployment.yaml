@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: corumpage-deployment
+  namespace: corumpage
+  labels:
+    app: corumpage
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: corumpage
+  template:
+    metadata:
+      labels:
+        app: corumpage
+    spec:
+      containers:
+        - name: corumpage
+          image: saalejo/corumpage:23050920
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80

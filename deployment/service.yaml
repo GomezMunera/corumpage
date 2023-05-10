@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: corumpage-svc
+  namespace: corumpage
+spec:
+  type: NodePort
+  selector:
+      app: corumpage
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80

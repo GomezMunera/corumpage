@@ -2,7 +2,7 @@
 layout: archive
 title: Archive
 subtitle: All the content of this site by date
-permalink: ./demo/archive
+permalink: ./demo/archive/
 show_breadcrumb: true
 breadcrumb_list:
   - label: Home

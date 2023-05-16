@@ -2,7 +2,7 @@
 layout: archive
 title: Archive
 subtitle: Blog entries
-permalink: /archive
+permalink: /archive/
 include_collection: posts
 excerpt: News archive
 show_breadcrumb  : true

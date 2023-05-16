@@ -2,7 +2,7 @@ theme: chulapa-jekyll
 
 github: [metadata]
 repository: gomezmunera/corumpage
-url: "corumpage.org.co"
+url: "corum.prg.co"
 baseurl: ""
 #port: 8080
 
@@ -126,7 +126,7 @@ footer:
 # C. Theme Settings
 chulapa-skin:
   highlight   : "github"
-  skin        : sunset
+  skin        : gitdev
   autothemer  :  true
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/

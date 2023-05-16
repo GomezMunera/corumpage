@@ -1,7 +1,7 @@
 ---
 title: PageSpeed Results
 subtitle: '<span class="chulapa">CORUM</span> Theme Performance' 
-permalink: /pagespeed
+permalink: /pagespeed/
 header_type: "hero"
 header_img: https://images.unsplash.com/photo-1545290614-5ceedf604139?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60
 ---

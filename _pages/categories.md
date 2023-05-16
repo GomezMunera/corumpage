@@ -1,7 +1,7 @@
 ---
 layout: cloudcategory
 title: Categories
-permalink: /categories
+permalink: /categories/
 include_collection: posts
 excerpt: Categories on CORUM
 show_breadcrumb   : true

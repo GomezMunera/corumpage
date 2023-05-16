@@ -3,7 +3,7 @@ layout: cloudcategory
 title: Navigate categories
 subtitle: 'Categories from <code>demo</code> collection only'
 header_type: hero
-permalink: /demo/category
+permalink: /demo/category/
 include_collection: demo
 breadcrumb_list:
   - label: Home

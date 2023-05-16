@@ -3,7 +3,7 @@ layout: default
 title: Contribute
 subtitle: Help us to improve
 excerpt: Contribute to CORUM
-permalink: /contribute
+permalink: /contribute/
 show_comments: true
 ---
 

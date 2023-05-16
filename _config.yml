@@ -4,7 +4,9 @@ github: [metadata]
 repository: gomezmunera/corumpage
 url: "corumpage.org.co"
 baseurl: ""
-port: 8080
+#port: 8080
+
+exclude: ['_site','deployment']
 
 title: CORUM
 subtitle: Corporación de Estudiantes y Profesionales Marinilla

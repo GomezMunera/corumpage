@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: corumpage
-          image: saalejo/corumpage:23050920
+          image: corumcorp/corumpage:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80

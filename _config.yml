@@ -2,8 +2,9 @@ theme: chulapa-jekyll
 
 github: [metadata]
 repository: gomezmunera/corumpage
-url: "https://dieghernan.github.io"
+url: "corumpage.org.co"
 baseurl: ""
+port: 8080
 
 title: CORUM
 subtitle: Corporación de Estudiantes y Profesionales Marinilla

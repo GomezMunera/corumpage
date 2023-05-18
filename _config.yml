@@ -2,9 +2,8 @@ theme: chulapa-jekyll
 
 github: [metadata]
 repository: gomezmunera/corumpage
-url: "corum.prg.co"
+url: ""
 baseurl: ""
-#port: 8080
 
 exclude: ['_site','deployment']
 
